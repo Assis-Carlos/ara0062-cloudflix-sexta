@@ -7,8 +7,12 @@
 </head>
 <body>
     <script>
-        let msg = "Ola galera, sejam bem-vindos ao javasecript";
-        window.alert(msg);
+        let nome = window.prompt("Digite seu nome:");
+        if (nome) {
+            window.alert(`Olá ${nome}, Seja bem-vindo ao CloudFlix.`);
+        } else {
+            window.alert("Nenhum nome foi digitado!");
+        }
     </script>
 </body>
 </html>
